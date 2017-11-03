@@ -114,7 +114,6 @@ namespace MoonSharp.Interpreter.Serialization.Json
 		private static string EscapeString(string s)
 		{
 			s = s.Replace(@"\", @"\\");
-			s = s.Replace(@"/", @"\/");
 			s = s.Replace("\"", "\\\"");
 			s = s.Replace("\f", @"\f");
 			s = s.Replace("\b", @"\b");
